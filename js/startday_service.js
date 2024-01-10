@@ -32,7 +32,7 @@ fetch(`https://forewin.onrender.com/api/users/user/${id}`)
 
 
   // Use the correct API endpoint
-  fetch(`https://forewin.onrender.com/api/users/user/${id}`)
+  fetch(`https://fair-erin-vulture-fez.cyclic.app/api/users/user/${id}`)
     .then((response) => {
       if (!response.ok) {
         throw new Error(`HTTP error! Status: ${response.status}`);
@@ -63,7 +63,7 @@ fetch(`https://forewin.onrender.com/api/users/user/${id}`)
 
   function startday(){
 
-    fetch(`https://forewin.onrender.com/api/users/useractive/${id}`,
+    fetch(`https://fair-erin-vulture-fez.cyclic.app/api/users/useractive/${id}`,
      //fetch(`http://localhost:3000/api/users/useractive/${id}`,
      {
         method: 'POST', // or 'PUT'

@@ -17,7 +17,7 @@ function login(){
     };
     var token = 'secret'
 
-fetch('https://forewin.onrender.com/api/login/connect_users_login',
+fetch('https://fair-erin-vulture-fez.cyclic.app/api/login/connect_users_login',
 //fetch('http://localhost:3000/api/login/connect_users_login',
 {
     method: 'POST', // or 'PUT'

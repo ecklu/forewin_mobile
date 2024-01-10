@@ -23,7 +23,7 @@ var mycords=[]
 
 
 
-fetch(`https://forewin.onrender.com/api/test/connect`)
+fetch(`https://fair-erin-vulture-fez.cyclic.app/api/test/connect`)
 //fetch(`http://localhost:3000/api/test/connect`)
   .then((response) => response.json())
   .then((data) =>{ 
@@ -153,7 +153,7 @@ console.log("insert shop name",shopName[0])
        user_id:userId,
 
     };
-     fetch('https://forewin.onrender.com/api/test/daily_activity',
+     fetch('https://fair-erin-vulture-fez.cyclic.app/api/test/daily_activity',
     //fetch('http://localhost:3000/api/test/daily_activity',
     {
 
@@ -183,7 +183,7 @@ var idss = []
 
 var  shop = localStorage.getItem("storageId")
      console.log("The new shope",shop)
-    fetch(`https://forewin.onrender.com/api/test/activities`)
+    fetch(`https://fair-erin-vulture-fez.cyclic.app/api/test/activities`)
      //fetch(`http://localhost:3000/api/test/activities`)
          .then((response) => response.json())
          .then((data) =>{
@@ -207,7 +207,7 @@ var  shop = localStorage.getItem("storageId")
 
 
 
-         fetch(`https://forewin.onrender.com/api/test/activities_details`)
+         fetch(`https://fair-erin-vulture-fez.cyclic.app/api/test/activities_details`)
         //fetch(`http://localhost:3000/api/test/activities_details`)
                   .then((response) => response.json())
                   .then((data) =>{
@@ -249,7 +249,7 @@ const data = {
 
  var  shopid = localStorage.getItem("shopId")
  console.log("this is my hhhhh",shopid)
- fetch(`https://forewin.onrender.com/api/test/punchout/${shopid}`,
+ fetch(`https://fair-erin-vulture-fez.cyclic.app/api/test/punchout/${shopid}`,
  //fetch(`http://localhost:3000/api/test/punchout/${shopid}`,
  {
         method: 'POST', // or 'PUT'
@@ -280,7 +280,7 @@ const data = {
 
     var  shopDetailsIdid = localStorage.getItem("shopDetailsId")
      console.log("this is my hhhhh",shopDetailsIdid)
-    fetch(`https://forewin.onrender.com/api/test/punchout_details/${shopDetailsIdid}`,
+    fetch(`https://fair-erin-vulture-fez.cyclic.app/api/test/punchout_details/${shopDetailsIdid}`,
    //fetch(`http://localhost:3000/api/test/punchout_details/${shopDetailsIdid}`,
     {
            method: 'POST', // or 'PUT'
@@ -358,7 +358,7 @@ const data = {
 
   function endDay(){
 
-      fetch(`https://forewin.onrender.com/api/users/useractive/${id}`,
+      fetch(`https://fair-erin-vulture-fez.cyclic.app/api/users/useractive/${id}`,
      //fetch(`http://localhost:3000/api/users/useractive/${id}`,
       {
         method: 'POST', // or 'PUT'
